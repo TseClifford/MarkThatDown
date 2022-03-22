@@ -3,11 +3,12 @@ import NotebookListItem from "./NotebookListItem";
 const NotebookList = () => {
   return (
     <>
-    <h2>Notebook list</h2>
-    <NotebookListItem/>
-    <NotebookListItem/>
+      <NotebookListItem book={"Notebook 1"}/>
+      <NotebookListItem book={"Notebook 2"}/>
     </>
   );
 };
+
+
 
 export default NotebookList;
