@@ -1,4 +1,4 @@
-import NotebookListItem from "./NotebookListItem";
+import NoteListItem from "./NoteListItem";
 
 const NoteList = () => {
   return (
@@ -18,9 +18,11 @@ const NoteList = () => {
             d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
           ></path>
         </svg>
-        <span class="ml-3">Note Lists</span>
+        <span class="ml-3">Notes</span>
       </h1>
-      <NotebookListItem />
+      <NoteListItem title={"Note Title 1"} />
+      <NoteListItem title={"Note Title 2"} />
+      <NoteListItem title={"Note Title 3"} />
     </>
   );
 };
