@@ -98,53 +98,6 @@ console.log(foo(5));
   );
 INSERT INTO notes (title, content, notebook_id)
 VALUES (
-    'CS135 Notes',
-    'Command Line Arguments
-----------------------
-
-Example:  ./word-count -b -sort SelectionSort -suf < textfile
-
--b | -a | -s
-  (required) Specifies the type of tree for storing (word, count) pair
-  possible trees are Binary search tree, Avl tree, and Splay tree
-
-    -b - Count frequencies using an unbalanced binary search tree 
-    -a - Count frequencies using an AVL tree 
-    -s - Count frequencies using a splay tree 
-
--sort SelectionSort | MergeSort | HeapSort
-  (optional) Specifies the type of sort.  
-  If -sort is omitted, HeapSort is used
-
--suf
-  (optional) Turns on suffix checker
-
--------------------------
-Design Decisions & Issues
--------------------------
-
-Class Hierachy
-
-		        |-------------------------|             |------------|
-                |     BinarySearchTree    |--has-a----->|   BSTNode  |
-                |-------------------------|             |------------|
-                           ^    ^                           ^  ^
-                          /      \                          |  |
-                       is-a     is-a                        |  |
-                        /          \                        |  |
-                       /           |--------------|         |  |
-                      /            |  SplayTree   |-has-a---|  |
-                     /             |--------------|            |
-                    /                                        is-a 
-                   /                                           |
-     |----------------|                                  |------------|
-     |     AVLTree    |--has-a-------------------------->| AVLNode    |
-     |----------------|                                  |------------|
-   ',
-    2
-  );
-INSERT INTO notes (title, content, notebook_id)
-VALUES (
     'Markdown syntax guide',
     '# Markdown syntax guide
 
