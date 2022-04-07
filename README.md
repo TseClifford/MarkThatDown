@@ -11,7 +11,7 @@ https://markthatdown.netlify.app/ \
 
 ## Team
 [<img src='https://img.shields.io/badge/Github-TseClifford-blue?style=flat-square&logo=github'>](https://github.com/TseClifford)
-[<img src='https://img.shields.io/badge/Github-dktrdktr-blue?style=flat-square&logo=github'>](https://github.com/dktrdktr)[<img src='https://img.shields.io/badge/Github-alparslanustaa-blue?style=flat-square&logo=github'>](https://github.com/alparslanustaa)
+[<img src='https://img.shields.io/badge/Github-dotubutis-blue?style=flat-square&logo=github'>](https://github.com/dotubutis)[<img src='https://img.shields.io/badge/Github-alparslanustaa-blue?style=flat-square&logo=github'>](https://github.com/alparslanustaa)
 
 ## Final Product
 
